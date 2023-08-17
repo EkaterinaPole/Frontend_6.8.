@@ -3,31 +3,21 @@
     margin-left: 30%;
     width: 40%;
     height: auto;
-    border: 3px solid greenyellow;
+    border: 3px solid rgb(154, 4, 76);
     border-radius: 25px;
     padding: 30px;
-    background-color: rgb(194, 254, 104, 0.1);
+    background-color: rgba(154, 4, 76, 0.3);
 }
 
 h1 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-ul{
-    list-style-type: none;
-    margin-top: 4em;
-
-}
-
-li {
-    margin-bottom: 1em;
-    margin-left: 3em;
+    margin-top: 40px;
 }
 
 a {
     text-decoration: none;
-    color: rgb(7, 156, 7);
+    color: rgb(201, 10, 74);
     font-size: 20px;
 }
 
@@ -35,7 +25,14 @@ a:hover {
     color: rgb(3, 6, 0);
     font-size: 21px;
     font-weight: 700;
-    background-color: greenyellow;
+    background-color: rgb(225, 22, 133);
     border-radius: 15px;
     padding:0 10px;
+}
+
+p {
+    margin-top: 3em;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(145, 9, 75);
 }
