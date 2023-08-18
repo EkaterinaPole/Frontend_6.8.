@@ -1,0 +1,79 @@
+.form {
+    position: absolute;
+    margin-left: 30%;
+    width: 40%;
+    height: auto;
+    border: 3px solid rgb(149, 0, 255);
+    border-radius: 25px;
+    padding: 30px;
+    background-color: rgba(166, 0, 255, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(121, 3, 194);
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(239, 224, 250);
+    font-size: 21px;
+    font-weight: 700;
+    background-color: rgb(121, 4, 171);
+    border-radius: 15px;
+    padding:0 10px;
+}
+
+form label{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(195, 2, 253);
+}
+
+input{
+    border: 1px solid rgb(149, 0, 255);
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+button{
+    width: 465px;
+    height: 70px;
+    border: 1px solid rgb(149, 0, 255);
+    border-radius: 25px;
+    margin-top: 30px;
+    font-size: 16px;
+    background: -webkit-linear-gradient(top, hsl(277, 88%, 90%), hsl(286, 100%, 50%) 90%); /*градиент цвета на кнопке*/
+    color: rgb(253, 250, 255);
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.974);
+    
+}
+
+/* Эффект при нажатии */
+button:active { 
+    width: 460px; /* Уменьшаем ширину */
+    height: 69px; /* Уменьшаем высоту */
+    box-shadow: 0 0 hsl(275, 60%, 60%); /* Уменьшаем тень */
+    border: 3px solid hsl(275, 40%, 70%); /* Уменьшаем толщину рамки */
+    background: -webkit-linear-gradient(top, hsl(277, 88%, 90%), hsl(286, 100%, 50%) 90%); /* Изменяем значения линейного градиента */
+    }
+
+hr{
+    margin-top: 15px;
+    border: 1px solid rgb(102, 5, 171);
+}
+
+p {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(195, 2, 253);
+}

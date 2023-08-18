@@ -21,7 +21,7 @@ a {
     font-size: 20px;
 }
 
-a:hover, code:hover {
+a:hover, p:hover {
     color: rgb(251, 119, 4);
     font-size: 21px;
     font-weight: 700;
@@ -43,6 +43,8 @@ code {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-code:hover{
+p:hover{
     background-color: rgb(249, 214, 117);
+    font-size: 27px;
+    font-weight: 900;
 }
