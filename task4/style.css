@@ -1,0 +1,46 @@
+.form {
+    position: absolute;
+    margin-left: 30%;
+    width: 40%;
+    height: auto;
+    border: 3px solid rgb(119, 255, 0);
+    border-radius: 25px;
+    padding: 30px 30px 60px 30px;
+    background-color: rgba(83, 252, 31, 0.402);
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+    padding-bottom: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(46, 169, 8);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(165, 248, 82);
+    font-size: 21px;
+    font-weight: 700;
+    background-color: rgb(69, 161, 12);
+    border-radius: 15px;
+    padding:0 10px;
+}
+
+#hrefText {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: green;
+}
+
+#hrefText:hover{
+    color: rgb(5, 252, 5);
+    background-color: rgb(11, 86, 5);
+}
