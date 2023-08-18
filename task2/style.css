@@ -1,0 +1,48 @@
+.form {
+    position: absolute;
+    margin-left: 30%;
+    width: 40%;
+    height: auto;
+    border: 3px solid orange;
+    border-radius: 25px;
+    padding: 30px;
+    background-color: rgb(255, 251, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(250, 133, 0);
+    font-size: 20px;
+}
+
+a:hover, code:hover {
+    color: rgb(251, 119, 4);
+    font-size: 21px;
+    font-weight: 700;
+    background-color: rgb(253, 245, 5);
+    border-radius: 15px;
+    padding:0 10px;
+}
+
+p {
+    margin-top: 3em;
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(245, 136, 3);
+}
+
+code {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+code:hover{
+    background-color: rgb(249, 214, 117);
+}
