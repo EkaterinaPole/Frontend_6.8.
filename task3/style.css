@@ -1,6 +1,39 @@
+  .form {
+    position: absolute;
+    margin-left: 30%;
+    width: 40%;
+    height: auto;
+    border: 3px solid rgb(0, 255, 242);
+    border-radius: 25px;
+    padding: 30px;
+    background-color: rgb(0, 255, 238, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 25, 250);
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(197, 247, 253);
+    font-size: 21px;
+    font-weight: 700;
+    background-color: rgb(5, 5, 253);
+    border-radius: 15px;
+    padding:0 10px;
+}
+
 #trafficLight {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: black;
-  }
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+  margin: 10% 0 0 40%;
+}
